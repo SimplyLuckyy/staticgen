@@ -54,8 +54,6 @@ def text_to_children(text):
         htmlnodes.append(text_node_to_html_node(node))
     return htmlnodes
 
-# copied code for testing
-
 def markdown_to_html_node(markdown):
     blocks = markdown_to_blocks(markdown)
     parent = ParentNode("div", [], None)
