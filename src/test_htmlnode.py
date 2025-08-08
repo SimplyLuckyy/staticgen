@@ -2,7 +2,7 @@ import unittest
 
 from htmlnode import HTMLNode, LeafNode, ParentNode
 
-class TestTextNode(unittest.TestCase):
+class TestHTMLNode(unittest.TestCase):
 
     #HTML tests
 
